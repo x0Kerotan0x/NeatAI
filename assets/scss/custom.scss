@@ -1,3 +1,17 @@
-/*
-    You can add your own custom styles here.
-*/
+/* Personnalisation des couleurs du thème */
+:root {
+    --body-background: #F5F7FA;        /* Couleur de fond principale (claire) */ 
+    --card-background: #FFFFFF;        /* Couleur de fond des cartes (claire) */ 
+    --accent-color: #1E90FF;           /* Couleur d'accent (liens, boutons) */ 
+    --content-text-color: #333333;     /* Couleur du texte principal (claire) */ 
+    --content-secondary-text-color: #666666; /* Couleur du texte secondaire (claire) */ 
+}
+
+/* Mode sombre */
+[data-scheme="dark"] {
+    --body-background: #1A202C;        /* Couleur de fond principale (sombre) */ 
+    --card-background: #2D3748;        /* Couleur de fond des cartes (sombre) */ 
+    --accent-color: #63B3ED;           /* Couleur d'accent (liens, boutons) */ 
+    --content-text-color: #E2E8F0;     /* Couleur du texte principal (sombre) */ 
+    --content-secondary-text-color: #A0AEC0; /* Couleur du texte secondaire (sombre) */ 
+}
